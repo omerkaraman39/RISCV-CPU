@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="riscvCPU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="riscvCPU" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20,999,995 ps"></ZoomStartTime>
+      <ZoomEndTime time="21,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="21,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/riscvCPU/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/zr" type="logic">
+      <obj_property name="ElementShortName">zr</obj_property>
+      <obj_property name="ObjectShortName">zr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/rslt" type="array">
+      <obj_property name="ElementShortName">rslt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rslt[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/adrs" type="array">
+      <obj_property name="ElementShortName">adrs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adrs[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/funct3" type="array">
+      <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/funct7" type="array">
+      <obj_property name="ElementShortName">funct7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">funct7[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/prgaddress" type="array">
+      <obj_property name="ElementShortName">prgaddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prgaddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscvCPU/dto" type="array">
+      <obj_property name="ElementShortName">dto[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dto[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
